@@ -30,6 +30,13 @@ knn.fit(X_train, y_train)
 # Print the accuracy
 print(knn.score(X_test, y_test))
 ```
+### How good is your model?
+- Precision: True positives / (TP+FP).
+      - Not many legitimate transactions are predicted to be fraudulent (i.e. positive)
+- Recall (Sensitivity): True Positives / (TP+FN). High recall: Lower false negative rate.
+      - Higher recall: Most of the fraudulent transactions are classified correctly.
+- Harmonic mean of Precision and Recall.
+
 ### Overfitting and Underfitting
 
 ![image](https://github.com/jeyabalajis/supervised_learning_scikit_learn/assets/15995686/323addc3-6526-4de7-8993-30fa5e18331b)
