@@ -40,3 +40,14 @@ print(knn.score(X_test, y_test))
 ### Overfitting and Underfitting
 
 ![image](https://github.com/jeyabalajis/supervised_learning_scikit_learn/assets/15995686/323addc3-6526-4de7-8993-30fa5e18331b)
+
+### ROC Curve
+
+- The model predicts 1 for all the data (or) zero for all the data (This is the straight line in the ROC curve)
+- If the threshold is varied, we get different true positive and false positive rates
+- A line plot plots the trend.
+- If the ROC Curve is above the dotted line, the model performs better than randomly guessing the class of each observation.
+
+### Hyperparameter Tuning
+
+- Using the optimal hyperparameters does not guarantee a high performing model.
