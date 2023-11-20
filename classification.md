@@ -50,4 +50,4 @@ print(knn.score(X_test, y_test))
 
 ### Hyperparameter Tuning
 
-- Using the optimal hyperparameters does not guarantee a high performing model.
+- Using the optimal hyperparameters does not guarantee a high-performing model.
