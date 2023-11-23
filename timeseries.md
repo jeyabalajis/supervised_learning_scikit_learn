@@ -30,3 +30,10 @@ model.predict(X)
 from sklearn.metrics import r2_score
 print(r2_score(y_predicted, y_test))
 ```
+
+## Advanced Time Series Prediction
+
+- Simple Interpolation
+- Rolling Window (Each point represents the % change over a previous window) [Standardize the mean and variance over time] 
+
+![image](https://github.com/jeyabalajis/supervised_learning_scikit_learn/assets/15995686/9d480225-901d-496e-ae70-ff310c0b9f84)
